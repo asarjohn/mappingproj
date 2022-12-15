@@ -1,0 +1,67 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+
+/*********************************************************************
+  YOUR MOBILE/BASE STYLES GO HERE
+*********************************************************************/
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 20px;
+    font-family: 'Crimson Text';
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: pink;
+}
+
+h1 {text-align: left;}
+p {text-align: left;}
+div {text-align: left;}
+.iframe-container{
+width: 700px;}
+
+.icon-container{
+  display: flex;
+  flex-direction: row;
+  padding-left: 20px
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+img{
+  width: 500px
+
+
+}
+
+.caption{
+  font-size: 10px;
+  style:it;
+/*********************************************************************
+  YOUR TABLET/DESKTOP STYLES GO HERE
+*********************************************************************/
+@media(min-width: 681px) {
+    /* Any adjustments for tablets and larger go here.
+    Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+}
+
+/*********************************************************************
+  YOUR DESKTOP-ONLY STYLES GO HERE
+*********************************************************************/
+@media(min-width: 729px) {
+    /* Any adjustments for desktop and larger go here.
+    Note these styles will be applied to anything 729px or larger -- so desktop */
+}
